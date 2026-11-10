@@ -18,4 +18,21 @@ public class SetupTests
         // Assert
         Assert.True(body == "Hello!");
     }
+
+    [Fact]
+    public async Task BasicServiceTestAsync()
+    {
+        // Arrange
+        var client = new HttpClient();
+
+        // Act
+        var response = await client.GetAsync("http://localhost:5212/api/Tests/HelloService");
+
+        var body = await response.Content.ReadAsStringAsync();
+
+        // Assert
+        Assert.True(body == "AHHHHHHHHHH IM BURNING");
+    }
+
+    
 }

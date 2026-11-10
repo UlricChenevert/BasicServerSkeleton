@@ -17,4 +17,9 @@ public class TestsController(ITestService testService) : Controller
     {
         return testService.HelloWorld();
     }
+
+    public bool HelloDatabase()
+    {
+        return testService.HelloDatabase();
+    }
 }

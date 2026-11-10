@@ -6,6 +6,6 @@
         "**/global.json": true,
         "appsettings.*":true,
         "Facility-Booking-System.slnx":true,
-        ".gitignore":true
+        // ".gitignore":true
     }
 }

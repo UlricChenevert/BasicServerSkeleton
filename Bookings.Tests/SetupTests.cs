@@ -1,3 +1,4 @@
+using System.Net.Http.Json;
 using Xunit;
 
 namespace Booking.Tests;
@@ -34,5 +35,18 @@ public class SetupTests
         Assert.True(body == "AHHHHHHHHHH IM BURNING");
     }
 
-    
+    [Fact]
+    public async Task BasicDatabaseAsync()
+    {
+        // Arrange
+        var client = new HttpClient();
+
+        // Act
+        var response = await client.GetAsync("http://localhost:5212/api/Tests/HelloDatabase");
+
+        var body = await response.Content.ReadFromJsonAsync<bool>();
+
+        // Assert
+        Assert.True(body = true);
+    }
 }

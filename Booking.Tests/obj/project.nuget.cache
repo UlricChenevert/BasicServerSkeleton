@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "L7/6HTcQJ/k=",
+  "success": true,
+  "projectFilePath": "/var/home/william/Documents/Coding Projects/Facility-Booking-System/Booking.Tests/Booking.Tests.csproj",
+  "expectedPackageFiles": [
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/microsoft.applicationinsights/2.23.0/microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/microsoft.testing.extensions.telemetry/2.5.2/microsoft.testing.extensions.telemetry.2.5.2.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/microsoft.testing.extensions.trxreport.abstractions/2.5.2/microsoft.testing.extensions.trxreport.abstractions.2.5.2.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/microsoft.testing.platform/2.5.2/microsoft.testing.platform.2.5.2.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/microsoft.testing.platform.msbuild/2.5.2/microsoft.testing.platform.msbuild.2.5.2.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/system.security.accesscontrol/6.0.1/system.security.accesscontrol.6.0.1.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/xunit.analyzers/2.3.0/xunit.analyzers.2.3.0.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/xunit.runner.visualstudio/4.0.1/xunit.runner.visualstudio.4.0.1.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/xunit.v3/4.0.3/xunit.v3.4.0.3.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/xunit.v3.assert/4.0.3/xunit.v3.assert.4.0.3.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/xunit.v3.common/4.0.3/xunit.v3.common.4.0.3.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/xunit.v3.core.mtp-v2/4.0.3/xunit.v3.core.mtp-v2.4.0.3.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/xunit.v3.extensibility.core/4.0.3/xunit.v3.extensibility.core.4.0.3.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/xunit.v3.mtp-v2/4.0.3/xunit.v3.mtp-v2.4.0.3.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/xunit.v3.runner.common/4.0.3/xunit.v3.runner.common.4.0.3.nupkg.sha512",
+    "/var/home/william/Documents/Coding Projects/.nuget/packages/xunit.v3.runner.inproc.console/4.0.3/xunit.v3.runner.inproc.console.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

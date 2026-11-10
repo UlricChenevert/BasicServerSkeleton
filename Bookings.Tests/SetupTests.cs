@@ -1,3 +1,5 @@
+using Xunit;
+
 namespace Booking.Tests;
 
 public class SetupTests
@@ -9,9 +11,9 @@ public class SetupTests
         var client = new HttpClient();
 
         // Act
-        var response = await client.GetAsync("http://localhost:5212/api/Test/HelloWorld", TestContext.Current.CancellationToken);
+        var response = await client.GetAsync("http://localhost:5001/api/Test/HelloWorld");
 
-        var body = await response.Content.ReadAsStringAsync(TestContext.Current.CancellationToken);
+        var body = await response.Content.ReadAsStringAsync();
 
         // Assert
         Assert.True(body == "Hello!");

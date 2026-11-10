@@ -11,7 +11,7 @@ public class SetupTests
         var client = new HttpClient();
 
         // Act
-        var response = await client.GetAsync("http://localhost:5001/api/Test/HelloWorld");
+        var response = await client.GetAsync("http://localhost:5212/api/Tests/HelloWorld");
 
         var body = await response.Content.ReadAsStringAsync();
 

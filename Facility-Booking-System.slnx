@@ -3,5 +3,4 @@
     <Project Path="Bookings.Server/Bookings.Server.csproj" />
   </Folder>
   <Project Path="Bookings.Tests/Bookings.Tests.csproj" />
-  <!-- <Project Path="Facility-Booking-System.csproj" /> -->
 </Solution>
